@@ -4,8 +4,8 @@
 echo '==============================='
 echo 'start to install dependences...'
 case "$OSTYPE" in
-    darwin*)  brew install vim git ;; 
-    linux*)   sudo apt-get install vim exuberant-ctags git ;;
+    darwin*)  brew install vim git pip;;
+    linux*)   sudo apt-get install vim exuberant-ctags git pip;;
     *)        echo "unknown: OS: $OSTYPE, U should install dependences by yourself" ;;
 esac
 sudo pip install dbgp vim-debug pep8 flake8 pyflakes isort
