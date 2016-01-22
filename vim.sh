@@ -16,6 +16,8 @@ cp ~/.vimrc /tmp/vimrc.bak
 curl -O https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/.vimrc
 mv .vimrc ~/.vimrc
 
+mkdir ~/.vim/
+mkdir ~/.vim/dirs/
 sudo chown -R $USER ~/.vim/  
 echo '==============================='
 echo 'start to install vim plugins...'
