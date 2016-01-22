@@ -10,7 +10,6 @@ case "$OSTYPE" in
 esac
 sudo pip install dbgp vim-debug pep8 flake8 pyflakes isort
 
-sudo chown -R $USER ~/.vim/  
 echo '==============================='
 echo 'start to download vimrc file...'
 cp ~/.vimrc /tmp/vimrc.bak
