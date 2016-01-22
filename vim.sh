@@ -21,3 +21,4 @@ echo 'start to install vim plugins...'
 vim +BundleClean +BundleInstall! +qa
 
 sudo chown $USER ~/.vim/
+echo 'down! enjoy it!'
